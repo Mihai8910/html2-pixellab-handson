@@ -55,7 +55,8 @@
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.flex-container-02 :first-child
+.flex-container-02 :first-child+div {
+  flex-shrink: 2;
+}
