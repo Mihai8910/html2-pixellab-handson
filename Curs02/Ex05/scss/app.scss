@@ -16,6 +16,35 @@
   }
 }
 
-.box01 {
-  border: dotted;
+.box {
+  &-01 {
+    border: 1px dotted;
+  }
+  &-1 {
+    border: dotted;
+  }
+  &-2 {
+    background-color: gray;
+  }
+  &-3 {
+    border: dotted;
+  }
+  &-4 {
+    background-color: gray;
+  }
+  &-5 {
+    border: dotted;
+  }
+  &-6 {
+    background-color: gray;
+  }
+  &-7 {
+    border: dotted;
+  }
+  &-8 {
+    background-color: gray;
+  }
+  &-9 {
+    border: dotted;
+  }
 }

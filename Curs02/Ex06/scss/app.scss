@@ -1,4 +1,4 @@
-.line {
+cd.line {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
@@ -15,5 +15,21 @@ $border-styles: (dotted, solid, dashed, double, none);
 @each $border-style in $border-styles {
   .b-#{$border-style} {
     border-style: $border-style;
+  }
+}
+
+$margins: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+@each $size, $value in $margins {
+  .m-#{$size} {
+    margin: $value;
+  }
+  .p-#{$size} {
+    margin: $value;
+    padding: $value;
   }
 }

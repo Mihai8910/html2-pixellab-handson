@@ -1,4 +1,4 @@
-.line {
+cd.line {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
@@ -28,6 +28,42 @@
 
 .b-none {
   border-style: none;
+}
+
+.m-xs {
+  margin: 4px;
+}
+
+.p-xs {
+  margin: 4px;
+  padding: 4px;
+}
+
+.m-sm {
+  margin: 8px;
+}
+
+.p-sm {
+  margin: 8px;
+  padding: 8px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.p-md {
+  margin: 16px;
+  padding: 16px;
+}
+
+.m-lg {
+  margin: 32px;
+}
+
+.p-lg {
+  margin: 32px;
+  padding: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -46,5 +46,35 @@
   border-width: 9px;
 }
 
+.box-01 {
+  border: 1px dotted;
+}
+.box-1 {
+  border: dotted;
+}
+.box-2 {
+  background-color: gray;
+}
+.box-3 {
+  border: dotted;
+}
+.box-4 {
+  background-color: gray;
+}
+.box-5 {
+  border: dotted;
+}
+.box-6 {
+  background-color: gray;
+}
+.box-7 {
+  border: dotted;
+}
+.box-8 {
+  background-color: gray;
+}
+.box-9 {
+  border: dotted;
+}
 
 /*# sourceMappingURL=style.css.map */
