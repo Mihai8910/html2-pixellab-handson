@@ -65,8 +65,7 @@
   align-items: center;
 }
 
-
-.flex-container-02 :first-child+div {
+.flex-container-02 :first-child + div {
   flex-shrink: 2;
 }
 
@@ -76,7 +75,7 @@
 
 .flex-container-03 {
   justify-content: flex-end;
-align-items: flex-end;
+  align-items: flex-end;
 }
 
 .flex-container-03 div:nth-child(3) {
@@ -98,10 +97,9 @@ align-items: flex-end;
   flex-shrink: 3;
 }
 
-
 .flex-container-05 {
   justify-content: center;
-align-items: center;
+  align-items: center;
 }
 .flex-container-05 div:nth-child(2) {
   flex-shrink: 2;
